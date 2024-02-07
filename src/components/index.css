@@ -1,0 +1,104 @@
+/*body{
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+}*/
+
+@font-face {
+  font-family: "Light";   /*Can be any text*/
+  src: local("SketchBlockBold"),
+    url("../SketchBlockBold.ttf") format("truetype");
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+  background: url('../img/game-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#main .img-ruleta {
+  width: 60%;
+  height: auto;
+  
+	transition: all 4s ease;
+	overflow-x: hidden
+}
+
+#main .img-responsive {
+  width: 60%;
+  height: auto;
+}
+
+#main .img-apuntador {
+	display: inline-block;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.swal-title
+{
+  font-family: "Light";
+  color:#5B108B;
+  font-size: 13rem;
+}
+
+.swal-button
+{
+  background-color: #5B108B;
+  font-size: 3rem;
+}
+
+.swal-button:hover
+{
+  background-color: #5B108B !important;
+}
+
+.swal-button:focus
+{
+  background-color: #5B108B !important;
+  border-color: #5B108B !important;
+}
+
+.swal-modal
+{
+  width: 878px;
+  height: 578px;
+}
+.swal-text
+{
+  font-size: 4rem;
+}
+
+.swal-footer{
+  margin-top: 8rem;
+  padding: 33px 25px;
+}
+
+.swal-title:not(:last-child)
+{
+  margin-bottom: 33px;
+  margin-top: 95px;
+}
+
+#btnAnimar {
+  background:none;
+  border:none; 
+  padding:none;
+}
+
+@keyframes infinite-spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1100deg);
+  }
+}
