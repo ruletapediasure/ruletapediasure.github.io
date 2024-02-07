@@ -2,7 +2,7 @@
   "name": "my-awesome-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://diegojs.github.io/game-react/",
+  "homepage": "https://ruletapediasure.github.io/my-awesome-app/build",
   "dependencies": {
     "bootstrap": "^4.1.1",
     "gh-pages": "^1.2.0",
